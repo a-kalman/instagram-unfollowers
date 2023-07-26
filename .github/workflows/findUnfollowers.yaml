@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  FILE_ID: ${{https://drive.google.com/file/d/1ZGD_A74fYkAehfcGBOZ-XYFL4dpJNCaW/view?usp=drive_link}}
+  FILE_ID: ${{ secrets.FILE_ID }}
 
 jobs:
   findUnfollowers:
